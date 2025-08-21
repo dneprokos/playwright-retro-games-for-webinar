@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "npx playwright test"
+    "test:e2e": "npx playwright test",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,8 @@
     "@faker-js/faker": "^9.9.0",
     "@playwright/test": "^1.54.1",
     "@types/node": "^24.1.0",
-    "tsconfig-paths": "^4.2.0"
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "dotenv": "^17.2.1",
